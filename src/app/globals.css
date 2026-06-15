@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  /* Theme Casing Colors */
+  --retro-bg-body: #d1d5db;   /* Retro console gray (Gray 300) */
+  --retro-bg-casing: #e5e7eb; /* Retro console light gray (Gray 200) */
+  --retro-bg-dark: #374151;   /* Console shadow gray (Gray 700) */
+  --retro-border: #111827;    /* Retro black/slate-900 */
+  --retro-text: #111827;      /* Retro slate black */
+  --retro-text-light: #f9fafb;
+  --retro-screen: #ffffff;    /* Retro screen/card background */
+  --retro-screen-dim: #f3f4f6;
+
+  /* Joystick Buttons Accents */
+  --retro-red: #ef4444;
+  --retro-red-hover: #dc2626;
+  --retro-red-shadow: #7f1d1d;
+
+  --retro-blue: #3b82f6;
+  --retro-blue-hover: #2563eb;
+  --retro-blue-shadow: #1e3a8a;
+
+  --retro-green: #10b981;
+  --retro-green-hover: #059669;
+  --retro-green-shadow: #064e3b;
+
+  --retro-yellow: #f59e0b;
+  --retro-yellow-hover: #d97706;
+  --retro-yellow-shadow: #78350f;
+}
+
+body {
+  background-color: var(--retro-bg-body);
+  color: var(--retro-text);
+  font-family: "VT323", monospace;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Scanline overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.04) 2px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+}
+
+/* Gameboy screen frame */
+.gameboy-frame {
+  background: var(--retro-screen);
+  border: 4px solid var(--retro-border);
+  box-shadow:
+    inset 0 0 0 2px var(--retro-bg-body),
+    0 4px 0 var(--retro-border);
+  image-rendering: pixelated;
+}
+
+/* Pixel border helper */
+.pixel-border {
+  border: 3px solid var(--retro-border);
+  box-shadow:
+    inset -2px -2px 0 0 var(--retro-bg-body),
+    inset 2px 2px 0 0 var(--retro-border);
+}
+
+/* 3D Retro Text-Shadows (Retro Typography) */
+.text-retro-shadow-red {
+  text-shadow: 2px 2px 0 var(--retro-red-shadow);
+}
+.text-retro-shadow-blue {
+  text-shadow: 2px 2px 0 var(--retro-blue-shadow);
+}
+.text-retro-shadow-green {
+  text-shadow: 2px 2px 0 var(--retro-green-shadow);
+}
+.text-retro-shadow-yellow {
+  text-shadow: 2px 2px 0 var(--retro-yellow-shadow);
+}
+.text-retro-shadow-dark {
+  text-shadow: 2px 2px 0 var(--retro-border);
+}
+
+/* Blinking cursor */
+.cursor-blink::after {
+  content: "▌";
+  animation: blink 1s step-end infinite;
+  color: var(--retro-text);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Typewriter animation */
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--retro-border);
+  animation:
+    typing 2s steps(20, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--retro-border); }
+}
+
+/* Boot animation */
+@keyframes bootPulse {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* D-pad decoration */
+.dpad {
+  display: grid;
+  grid-template-columns: repeat(3, 12px);
+  grid-template-rows: repeat(3, 12px);
+  gap: 2px;
+}
+
+.dpad-cell {
+  background: var(--retro-border);
+}
+
+.dpad-cell.center {
+  background: transparent;
+}
+
+.dpad-cell.up { grid-column: 2; grid-row: 1; }
+.dpad-cell.down { grid-column: 2; grid-row: 3; }
+.dpad-cell.left { grid-column: 1; grid-row: 2; }
+.dpad-cell.right { grid-column: 3; grid-row: 2; }
+
+/* Boot screen overlay */
+.boot-overlay {
+  animation: bootFade 0.5s ease-out 1.5s forwards;
+}
+
+@keyframes bootFade {
+  to { opacity: 0; pointer-events: none; }
+}
