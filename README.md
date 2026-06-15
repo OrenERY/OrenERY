@@ -1,26 +1,13 @@
 <div align="center">
 
 <!-- ====== GAME BOY HEADER ====== -->
-<img src="./assets/gameboy-header.svg" alt="ERYren's Game Boy" width="700" />
+<img src="./assets/gameboy-header.svg?v=3" alt="ERYren's Game Boy" width="700" />
 
 <br />
 
 <!-- ====== RETRO TITLE ====== -->
-
-```
-╔════════════════════════════════════════════════════════╗
-║                                                        ║
-║   ███████╗██████╗ ██╗   ██╗██████╗ ███████╗███╗   ██╗  ║
-║   ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗██╔════╝████╗  ██║  ║
-║   █████╗  ██████╔╝ ╚████╔╝ ██████╔╝█████╗  ██╔██╗ ██║  ║
-║   ██╔══╝  ██╔══██╗  ╚██╔╝  ██╔══██╗██╔══╝  ██║╚██╗██║  ║
-║   ███████╗██║  ██║   ██║   ██║  ██║███████╗██║ ╚████║  ║
-║   ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝  ║
-║                                                        ║
-║                 Developer & Builder                    ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
-```
+# ERYren
+### Full-Stack Developer & Builder
 
 <br />
 
@@ -44,48 +31,28 @@
 
 </div>
 
-<!-- ====== ABOUT ====== -->
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░  ABOUT                                                       ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+---
 
-```
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│  > Name .......... ERYren                            │
-│  > Location ...... Indonesia                         │
-│  > Role .......... Full-Stack Developer              │
-│  > Focus ......... Web Apps, Computer Vision, IoT    │
-│                                                      │
-│  "Passionate about building software                 │
-│   — from web apps to computer vision."               │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
+## About Me
 
-<!-- ====== TECH STACK ====== -->
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░  TECH STACK                                                  ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+> **Name** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ERYren  
+> **Location** &nbsp;&nbsp;&nbsp;&nbsp;: Indonesia  
+> **Role** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Full-Stack Developer  
+> **Focus** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Web Apps, Computer Vision, IoT  
+> 
+> *"Passionate about building software — from web apps to computer vision."*
+
+---
+
+## Tech Stack
+
+| LANGUAGES | BACKEND | FRONTEND | TOOLS |
+| :--- | :--- | :--- | :--- |
+| • **Python**<br>• **TypeScript**<br>• **JavaScript**<br>• **PHP** | • **Laravel**<br>• **Node.js**<br>• **REST APIs**<br>• **IoT / ESP** | • **Next.js**<br>• **React**<br>• **HTML / CSS**<br>• **MediaPipe** | • **Tailwind CSS**<br>• **Git**<br>• **Docker**<br>• **VS Code** |
+
+<br />
 
 <div align="center">
-
-```
-╔═══════════════╦═══════════════╦═══════════════╦═══════════════╗
-║   LANGUAGES   ║   BACKEND     ║   FRONTEND    ║   TOOLS       ║
-╠═══════════════╬═══════════════╬═══════════════╬═══════════════╣
-║               ║               ║               ║               ║
-║  Python       ║  Laravel      ║  Next.js      ║  Tailwind CSS ║
-║  TypeScript   ║  Node.js      ║  React        ║  Git          ║
-║  JavaScript   ║  REST APIs    ║  HTML / CSS   ║  Docker       ║
-║  PHP          ║  IoT / ESP    ║  MediaPipe    ║  VS Code      ║
-║               ║               ║               ║               ║
-╚═══════════════╩═══════════════╩═══════════════╩═══════════════╝
-```
 
 ![Python](https://img.shields.io/badge/Python-0f380f?style=flat-square&logo=python&logoColor=9bbc0f)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0f380f?style=flat-square&logo=typescript&logoColor=9bbc0f)
@@ -98,51 +65,20 @@
 
 </div>
 
-<!-- ====== PROJECTS ====== -->
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░  PROJECTS                                                    ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+---
 
-```
-┌──────────────────────────────────────────────────────┐
-│  PROJECTS                                            │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  > cloud_based_lms                                   │
-│    Cloud-based Learning Management System            │
-│    Python                                            │
-│                                                      │
-│  > mediapie_computer_vision                          │
-│    Computer vision projects with MediaPipe           │
-│    Python                                            │
-│                                                      │
-│  > TryCycle                                          │
-│    Full-stack web application                        │
-│    Blade (Laravel)                                   │
-│                                                      │
-│  > Website-Kliniq                                    │
-│    Modern clinic website                             │
-│    TypeScript                                        │
-│                                                      │
-│  > PBWD                                              │
-│    Interactive landing page                          │
-│    JavaScript                                        │
-│                                                      │
-│  > IOT_Monitoring                                    │
-│    IoT Monitoring Dashboard                          │
-│    TypeScript                                        │
-│                                                      │
-└──────────────────────────────────────────────────────┘
-```
+## Projects
 
-<!-- ====== STATS ====== -->
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░  STATS                                                       ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+* **[cloud_based_lms](https://github.com/OrenERY/cloud_based_lms)**: Cloud-based Learning Management System — *Python*
+* **[mediapie_computer_vision](https://github.com/OrenERY/mediapie_computer_vision)**: Computer vision projects with MediaPipe — *Python*
+* **[TryCycle](https://github.com/OrenERY/TryCycle)**: Full-stack web application — *Blade (Laravel)*
+* **[Website-Kliniq](https://github.com/OrenERY/Website-Kliniq)**: Modern clinic website — *TypeScript*
+* **[PBWD](https://github.com/OrenERY/PBWD)**: Interactive landing page — *JavaScript*
+* **[IOT_Monitoring](https://github.com/OrenERY/IOT_Monitoring)**: IoT Monitoring Dashboard — *TypeScript*
+
+---
+
+## Stats
 
 <div align="center">
 
@@ -154,12 +90,9 @@
 
 </div>
 
-<!-- ====== CONTRIBUTION GRAPH ====== -->
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░  CONTRIBUTION GRAPH                                          ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+---
+
+## Contribution Activity
 
 <div align="center">
 
@@ -167,24 +100,19 @@
 
 </div>
 
-<!-- ====== FOOTER ====== -->
+---
 
 <br />
 
 <div align="center">
 
-```
-╔═════════════════════════════════════════════════════╗
-║                                                     ║
-║                   GAME  OVER                        ║
-║                                                     ║
-║         Thanks for visiting my profile!             ║
-║         INSERT COIN to continue...                  ║
-║                                                     ║
-║             github.com/OrenERY                      ║
-║                                                     ║
-╚═════════════════════════════════════════════════════╝
-```
+## GAME OVER
+Thanks for visiting my profile!  
+**INSERT COIN to continue...**
+
+[github.com/OrenERY](https://github.com/OrenERY)
+
+<br /><br />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0f380f&height=80&section=footer&fontColor=9bbc0f" width="100%" />
 
