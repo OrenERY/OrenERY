@@ -13,20 +13,20 @@
 
 <!-- ====== BADGES ====== -->
 <a href="https://github.com/OrenERY">
-  <img src="https://img.shields.io/github/followers/OrenERY?style=for-the-badge&label=FOLLOWERS&color=306230&labelColor=0f380f&logo=github&logoColor=9bbc0f" />
+  <img src="https://img.shields.io/github/followers/OrenERY?style=for-the-badge&label=FOLLOWERS&color=ef4444&labelColor=374151&logo=github&logoColor=ffffff" />
 </a>
 &nbsp;
-<img src="https://img.shields.io/github/stars/OrenERY?style=for-the-badge&label=STARS&color=306230&labelColor=0f380f&logo=star&logoColor=9bbc0f" />
+<img src="https://img.shields.io/github/stars/OrenERY?style=for-the-badge&label=STARS&color=f59e0b&labelColor=374151&logo=star&logoColor=ffffff" />
 &nbsp;
-<img src="https://komarev.com/ghpvc/?username=OrenERY&style=for-the-badge&color=306230&label=VISITORS" />
+<img src="https://komarev.com/ghpvc/?username=OrenERY&style=for-the-badge&color=3b82f6&label=VISITORS&labelColor=374151" />
 
 <br /><br />
 
 <!-- ====== PIXEL STATS CARD ====== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" />
-  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" />
-  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" width="500" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=1f2937&color=f9fafb" />
+  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=f3f4f6&color=111827" />
+  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=f3f4f6&color=111827" width="500" />
 </picture>
 
 </div>
@@ -54,14 +54,14 @@
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-0f380f?style=flat-square&logo=python&logoColor=9bbc0f)
-![TypeScript](https://img.shields.io/badge/TypeScript-0f380f?style=flat-square&logo=typescript&logoColor=9bbc0f)
-![JavaScript](https://img.shields.io/badge/JavaScript-0f380f?style=flat-square&logo=javascript&logoColor=9bbc0f)
-![Laravel](https://img.shields.io/badge/Laravel-0f380f?style=flat-square&logo=laravel&logoColor=9bbc0f)
-![Next.js](https://img.shields.io/badge/Next.js-0f380f?style=flat-square&logo=next.js&logoColor=9bbc0f)
-![Tailwind](https://img.shields.io/badge/Tailwind-0f380f?style=flat-square&logo=tailwindcss&logoColor=9bbc0f)
-![Node.js](https://img.shields.io/badge/Node.js-0f380f?style=flat-square&logo=node.js&logoColor=9bbc0f)
-![Git](https://img.shields.io/badge/Git-0f380f?style=flat-square&logo=git&logoColor=9bbc0f)
+![Python](https://img.shields.io/badge/Python-e5e7eb?style=flat-square&logo=python&logoColor=3b82f6&labelColor=374151)
+![TypeScript](https://img.shields.io/badge/TypeScript-e5e7eb?style=flat-square&logo=typescript&logoColor=3b82f6&labelColor=374151)
+![JavaScript](https://img.shields.io/badge/JavaScript-e5e7eb?style=flat-square&logo=javascript&logoColor=f59e0b&labelColor=374151)
+![Laravel](https://img.shields.io/badge/Laravel-e5e7eb?style=flat-square&logo=laravel&logoColor=ef4444&labelColor=374151)
+![Next.js](https://img.shields.io/badge/Next.js-e5e7eb?style=flat-square&logo=next.js&logoColor=111827&labelColor=374151)
+![Tailwind](https://img.shields.io/badge/Tailwind-e5e7eb?style=flat-square&logo=tailwindcss&logoColor=10b981&labelColor=374151)
+![Node.js](https://img.shields.io/badge/Node.js-e5e7eb?style=flat-square&logo=node.js&logoColor=10b981&labelColor=374151)
+![Git](https://img.shields.io/badge/Git-e5e7eb?style=flat-square&logo=git&logoColor=ef4444&labelColor=374151)
 
 </div>
 
@@ -82,11 +82,11 @@
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=OrenERY&theme=dark&background=0f380f&ring=9bbc0f&fire=8bac0f&currStreakNum=9bbc0f&sideNums=9bbc0f&currStreakLabel=8bac0f&sideLabels=8bac0f&dates=306230&border=306230" width="500" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=OrenERY&background=e5e7eb&ring=ef4444&fire=f59e0b&currStreakNum=3b82f6&sideNums=3b82f6&currStreakLabel=111827&sideLabels=111827&dates=4b5563&border=111827" width="500" />
 
 <br /><br />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OrenERY&layout=compact&bg_color=0f380f&title_color=9bbc0f&text_color=8bac0f&border_color=306230&hide_border=false" width="400" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=OrenERY&layout=compact&bg_color=e5e7eb&title_color=ef4444&text_color=111827&border_color=111827&icon_color=3b82f6&hide_border=false" width="400" />
 
 </div>
 
@@ -96,7 +96,7 @@
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=OrenERY&bg_color=0f380f&color=9bbc0f&line=8bac0f&point=9bbc0f&area_color=306230&area=true&hide_border=false&custom_title=Contribution%20Activity&border_color=306230" width="700" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=OrenERY&bg_color=e5e7eb&color=ef4444&line=3b82f6&point=f59e0b&area_color=ffffff&area=true&hide_border=false&custom_title=Contribution%20Activity&border_color=111827" width="700" />
 
 </div>
 
@@ -106,14 +106,12 @@
 
 <div align="center">
 
-## GAME OVER
-Thanks for visiting my profile!  
-**INSERT COIN to continue...**
+## Look at my other works!
 
 [github.com/OrenERY](https://github.com/OrenERY)
 
 <br /><br />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0f380f&height=80&section=footer&fontColor=9bbc0f" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=111827&height=80&section=footer&fontColor=f59e0b" width="100%" />
 
 </div>
