@@ -6,8 +6,8 @@
 <br />
 
 <!-- ====== RETRO TITLE ====== -->
-# ERYren
-### Full-Stack Developer & Builder
+<h1 align="center"><code>ERYren</code></h1>
+<p align="center"><code>Full-Stack Developer & Builder</code></p>
 
 <br />
 
@@ -24,9 +24,9 @@
 
 <!-- ====== PIXEL STATS CARD ====== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=1f2937&color=f9fafb" />
-  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=f3f4f6&color=111827" />
-  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=f3f4f6&color=111827" width="500" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=%231f2937&color=%23f9fafb" />
+  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=%23f3f4f6&color=%23111827" />
+  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&background=%23f3f4f6&color=%23111827" width="500" />
 </picture>
 
 </div>
