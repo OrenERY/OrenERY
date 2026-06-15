@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
   <defs>
     <style>
       @keyframes screenGlow {
@@ -44,111 +44,111 @@
 
   <!-- ====== GAME BOY BODY ====== -->
   <!-- Main body shadow (offset 3px right, 3px down) -->
-  <rect x="253" y="13" width="294" height="294" rx="16" fill="#1a1a2e" opacity="0.3" />
+  <rect x="253" y="18" width="294" height="370" rx="16" fill="#1a1a2e" opacity="0.3" />
   <!-- Main body -->
-  <rect x="250" y="10" width="294" height="294" rx="16" fill="#c8c4bc" />
+  <rect x="250" y="15" width="294" height="370" rx="16" fill="#c8c4bc" />
   <!-- Inner body detail line -->
-  <rect x="256" y="16" width="282" height="282" rx="13" fill="none" stroke="#b0aca4" stroke-width="1.5" />
+  <rect x="256" y="21" width="282" height="358" rx="13" fill="none" stroke="#b0aca4" stroke-width="1.5" />
 
   <!-- ====== SCREEN AREA ====== -->
   <!-- Screen housing (darker bezel) -->
-  <rect x="285" y="35" width="224" height="155" rx="8" fill="#4a4a5a" />
+  <rect x="285" y="35" width="224" height="145" rx="8" fill="#4a4a5a" />
   <!-- Screen border (inner bezel) -->
-  <rect x="293" y="42" width="208" height="140" rx="5" fill="#2d2d3d" />
+  <rect x="293" y="42" width="208" height="130" rx="5" fill="#2d2d3d" />
   <!-- Screen background (Game Boy green) -->
-  <rect x="300" y="48" width="194" height="128" rx="3" fill="#9bbc0f" />
+  <rect x="300" y="48" width="194" height="118" rx="3" fill="#9bbc0f" />
   <!-- Screen glow overlay -->
-  <rect x="300" y="48" width="194" height="128" rx="3" fill="#aece1a" opacity="0.15" class="screen-glow" />
+  <rect x="300" y="48" width="194" height="118" rx="3" fill="#aece1a" opacity="0.15" class="screen-glow" />
   <!-- Scanlines overlay -->
-  <rect x="300" y="48" width="194" height="128" rx="3" fill="url(#scanlines)" opacity="0.5" />
+  <rect x="300" y="48" width="194" height="118" rx="3" fill="url(#scanlines)" opacity="0.5" />
 
   <!-- ====== SCREEN CONTENT ====== -->
   <!-- "GAME BOY" text on bezel above screen -->
-  <text x="397" y="33" text-anchor="middle" fill="#9bbc0f" font-size="7" letter-spacing="3" opacity="0.8">GAME BOY</text>
+  <text x="397" y="32" text-anchor="middle" fill="#9bbc0f" font-size="7" letter-spacing="3" opacity="0.8">GAME BOY</text>
 
   <!-- Title -->
   <text x="315" y="78" fill="#306230" font-size="16" class="text-line-1">▶ ERYren</text>
   <!-- Role -->
-  <text x="315" y="100" fill="#306230" font-size="11" class="text-line-2">  Developer &amp; Builder</text>
+  <text x="315" y="98" fill="#306230" font-size="11" class="text-line-2">  Developer &amp; Builder</text>
   <!-- Divider dots -->
-  <text x="315" y="118" fill="#306230" font-size="9" class="text-line-3">  ·····················</text>
+  <text x="315" y="114" fill="#306230" font-size="9" class="text-line-3">  ·····················</text>
   <!-- Focus areas -->
-  <text x="315" y="138" fill="#306230" font-size="10" class="text-line-3">  WEB · CV · CLOUD · IOT</text>
+  <text x="315" y="132" fill="#306230" font-size="10" class="text-line-3">  WEB · CV · CLOUD · IOT</text>
   <!-- Bottom prompt -->
-  <text x="315" y="158" fill="#306230" font-size="9" class="text-line-4">  PRESS START ▼</text>
+  <text x="315" y="150" fill="#306230" font-size="9" class="text-line-4">  PRESS START ▼</text>
   <!-- Blinking cursor -->
-  <rect x="410" y="148" width="7" height="10" fill="#306230" class="cursor" />
+  <rect x="410" y="140" width="7" height="10" fill="#306230" class="cursor" />
 
   <!-- ====== POWER LED ====== -->
-  <circle cx="275" cy="45" r="4" fill="#9bbc0f" class="power-led" />
-  <text x="283" y="48" fill="#4a4a5a" font-size="6" letter-spacing="1">POWER</text>
+  <circle cx="268" cy="50" r="4" fill="#9bbc0f" class="power-led" />
+  <text x="268" y="62" text-anchor="middle" fill="#8a8a8a" font-size="6" letter-spacing="0.5">POWER</text>
 
   <!-- ====== D-PAD ======
-       Center point: cx=316, cy=216
+       Center point: cx=316, cy=250
        Each arm: 28px long, 16px wide
-       Horizontal: x=288..344, y=208..224   (center 316, 216)
-       Vertical:   x=308..324, y=188..244   (center 316, 216)
+       Horizontal: x=288..344, y=242..258   (center 316, 250)
+       Vertical:   x=308..324, y=222..278   (center 316, 250)
   -->
   <!-- D-pad shadow (offset 2px right, 2px down) -->
-  <rect x="290" y="210" width="56" height="16" rx="3" fill="#2d2d3d" />
-  <rect x="310" y="190" width="16" height="56" rx="3" fill="#2d2d3d" />
+  <rect x="290" y="244" width="56" height="16" rx="3" fill="#2d2d3d" />
+  <rect x="310" y="224" width="16" height="56" rx="3" fill="#2d2d3d" />
   <!-- D-pad horizontal arm -->
-  <rect x="288" y="208" width="56" height="16" rx="3" fill="#3d3d4d" />
+  <rect x="288" y="242" width="56" height="16" rx="3" fill="#3d3d4d" />
   <!-- D-pad vertical arm -->
-  <rect x="308" y="188" width="16" height="56" rx="3" fill="#3d3d4d" />
+  <rect x="308" y="222" width="16" height="56" rx="3" fill="#3d3d4d" />
   <!-- D-pad center circle -->
-  <circle cx="316" cy="216" r="5" fill="#2d2d3d" />
+  <circle cx="316" cy="250" r="5" fill="#2d2d3d" />
 
   <!-- ====== A & B BUTTONS ======
        Real Game Boy: A is top-right, B is bottom-left, angled ~25deg
-       B center: (430, 218)
-       A center: (468, 203)
+       B center: (430, 255)
+       A center: (468, 238)
   -->
   <!-- B Button shadow -->
-  <circle cx="430" cy="220" r="14" fill="#8b1a4a" />
+  <circle cx="430" cy="257" r="14" fill="#8b1a4a" />
   <!-- B Button face -->
-  <circle cx="430" cy="218" r="14" fill="#a0325a" />
-  <text x="430" y="223" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">B</text>
+  <circle cx="430" cy="255" r="14" fill="#a0325a" />
+  <text x="430" y="260" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">B</text>
 
   <!-- A Button shadow -->
-  <circle cx="468" cy="205" r="14" fill="#8b1a4a" />
+  <circle cx="468" cy="240" r="14" fill="#8b1a4a" />
   <!-- A Button face -->
-  <circle cx="468" cy="203" r="14" fill="#a0325a" />
-  <text x="468" y="208" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">A</text>
+  <circle cx="468" cy="238" r="14" fill="#a0325a" />
+  <text x="468" y="243" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">A</text>
 
   <!-- ====== SELECT & START ======
-       Centered between D-pad and buttons at y~270
+       Centered between D-pad and buttons
        Each pill: 34x8, rotated -25deg
   -->
-  <rect x="355" y="262" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 372 266)" />
-  <rect x="403" y="262" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 420 266)" />
-  <text x="365" y="280" fill="#8a8a8a" font-size="6" letter-spacing="1">SELECT</text>
-  <text x="413" y="280" fill="#8a8a8a" font-size="6" letter-spacing="1">START</text>
+  <rect x="355" y="305" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 372 309)" />
+  <rect x="403" y="305" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 420 309)" />
+  <text x="365" y="323" fill="#8a8a8a" font-size="6" letter-spacing="1">SELECT</text>
+  <text x="413" y="323" fill="#8a8a8a" font-size="6" letter-spacing="1">START</text>
 
   <!-- ====== SPEAKER GRILLE ====== -->
-  <line x1="448" y1="250" x2="475" y2="237" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
-  <line x1="452" y1="258" x2="479" y2="245" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
-  <line x1="456" y1="266" x2="483" y2="253" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
-  <line x1="460" y1="274" x2="487" y2="261" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
-  <line x1="464" y1="282" x2="491" y2="269" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
+  <line x1="448" y1="293" x2="475" y2="280" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
+  <line x1="452" y1="301" x2="479" y2="288" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
+  <line x1="456" y1="309" x2="483" y2="296" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
+  <line x1="460" y1="317" x2="487" y2="304" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
+  <line x1="464" y1="325" x2="491" y2="312" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
 
   <!-- ====== SIDE DECORATIVE TEXT ====== -->
   <!-- Left side info -->
-  <text x="80" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">╔══════════════╗</text>
-  <text x="80" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">║  @OrenERY    ║</text>
-  <text x="80" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  WEB DEV     ║</text>
-  <text x="80" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  BUILDER     ║</text>
-  <text x="80" y="170" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">╚══════════════╝</text>
+  <text x="80" y="70"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">╔══════════════╗</text>
+  <text x="80" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">║  @OrenERY    ║</text>
+  <text x="80" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  WEB DEV     ║</text>
+  <text x="80" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  BUILDER     ║</text>
+  <text x="80" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">╚══════════════╝</text>
 
   <!-- Right side info -->
-  <text x="568" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">┌──────────────┐</text>
-  <text x="568" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">│  Python      │</text>
-  <text x="568" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  TypeScript  │</text>
-  <text x="568" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  Laravel     │</text>
-  <text x="568" y="170" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">└──────────────┘</text>
+  <text x="568" y="70"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">┌──────────────┐</text>
+  <text x="568" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">│  Python      │</text>
+  <text x="568" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  TypeScript  │</text>
+  <text x="568" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  Laravel     │</text>
+  <text x="568" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">└──────────────┘</text>
 
   <!-- Bottom decorative text -->
-  <text x="400" y="310" text-anchor="middle" fill="#4a6a0f" font-size="9" font-family="'Courier New', monospace" opacity="0.6">
+  <text x="400" y="390" text-anchor="middle" fill="#4a6a0f" font-size="9" font-family="'Courier New', monospace" opacity="0.6">
     github.com/OrenERY  ·  A B SELECT START
   </text>
 </svg>
