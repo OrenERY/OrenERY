@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ====== GAME BOY HEADER ====== -->
-<img src="./assets/gameboy-header.svg?v=4" alt="ERYren's Game Boy" width="700" />
+<img src="./assets/gameboy-header.svg?v=15" alt="ERYren's Game Boy" width="700" />
 
 <br />
 
