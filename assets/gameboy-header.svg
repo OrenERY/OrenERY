@@ -131,19 +131,7 @@
   <line x1="464" y1="325" x2="491" y2="312" stroke="#b0aca4" stroke-width="2" stroke-linecap="round" />
 
   <!-- ====== SIDE DECORATIVE TEXT ====== -->
-  <!-- Left side info -->
-  <text x="80" y="70"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">╔══════════════╗</text>
-  <text x="80" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">║  @OrenERY    ║</text>
-  <text x="80" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  WEB DEV     ║</text>
-  <text x="80" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  BUILDER     ║</text>
-  <text x="80" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">╚══════════════╝</text>
 
-  <!-- Right side info -->
-  <text x="568" y="70"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">┌──────────────┐</text>
-  <text x="568" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">│  Python      │</text>
-  <text x="568" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  TypeScript  │</text>
-  <text x="568" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  Laravel     │</text>
-  <text x="568" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">└──────────────┘</text>
 
   <!-- Bottom decorative text -->
   <text x="400" y="390" text-anchor="middle" fill="#4a6a0f" font-size="9" font-family="'Courier New', monospace" opacity="0.6">

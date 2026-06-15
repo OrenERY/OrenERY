@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ====== GAME BOY HEADER ====== -->
-<img src="./assets/gameboy-header.svg?v=3" alt="ERYren's Game Boy" width="700" />
+<img src="./assets/gameboy-header.svg?v=4" alt="ERYren's Game Boy" width="700" />
 
 <br />
 
@@ -24,9 +24,9 @@
 
 <!-- ====== PIXEL STATS CARD ====== -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&screen_effect=true&theme=green" />
-  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&screen_effect=true&theme=green" />
-  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&screen_effect=true&theme=green" width="500" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" />
+  <source media="(prefers-color-scheme: light)" srcset="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" />
+  <img alt="ERYren's GitHub Stats" src="https://pixel-profile.vercel.app/api/github-stats?username=OrenERY&theme=green" width="500" />
 </picture>
 
 </div>
