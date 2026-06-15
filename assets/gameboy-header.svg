@@ -9,10 +9,6 @@
         0%, 49% { opacity: 1; }
         50%, 100% { opacity: 0; }
       }
-      @keyframes scanline {
-        0% { transform: translateY(-100%); }
-        100% { transform: translateY(100%); }
-      }
       @keyframes powerBlink {
         0%, 90% { fill: #9bbc0f; }
         95% { fill: #6b8c00; }
@@ -36,21 +32,18 @@
       .text-line-2 { animation: textFade 2s ease-out forwards; animation-delay: 1.2s; opacity: 0; }
       .text-line-3 { animation: textFade 2s ease-out forwards; animation-delay: 1.9s; opacity: 0; }
       .text-line-4 { animation: textFade 2s ease-out forwards; animation-delay: 2.6s; opacity: 0; }
-
-      /* Pixel font approximation */
       text {
         font-family: 'Courier New', monospace;
         font-weight: bold;
       }
     </style>
-    <!-- Scanline pattern -->
     <pattern id="scanlines" patternUnits="userSpaceOnUse" width="800" height="4">
       <rect width="800" height="2" fill="rgba(0,0,0,0.08)" />
     </pattern>
   </defs>
 
   <!-- ====== GAME BOY BODY ====== -->
-  <!-- Main body shadow -->
+  <!-- Main body shadow (offset 3px right, 3px down) -->
   <rect x="253" y="13" width="294" height="294" rx="16" fill="#1a1a2e" opacity="0.3" />
   <!-- Main body -->
   <rect x="250" y="10" width="294" height="294" rx="16" fill="#c8c4bc" />
@@ -70,24 +63,19 @@
   <rect x="300" y="48" width="194" height="128" rx="3" fill="url(#scanlines)" opacity="0.5" />
 
   <!-- ====== SCREEN CONTENT ====== -->
-  <!-- "GAME BOY" text on housing -->
+  <!-- "GAME BOY" text on bezel above screen -->
   <text x="397" y="33" text-anchor="middle" fill="#9bbc0f" font-size="7" letter-spacing="3" opacity="0.8">GAME BOY</text>
 
   <!-- Title -->
   <text x="315" y="78" fill="#306230" font-size="16" class="text-line-1">▶ ERYren</text>
-
   <!-- Role -->
   <text x="315" y="100" fill="#306230" font-size="11" class="text-line-2">  Developer &amp; Builder</text>
-
   <!-- Divider dots -->
   <text x="315" y="118" fill="#306230" font-size="9" class="text-line-3">  ·····················</text>
-
-  <!-- Stats -->
+  <!-- Focus areas -->
   <text x="315" y="138" fill="#306230" font-size="10" class="text-line-3">  WEB · CV · CLOUD · IOT</text>
-
-  <!-- Bottom text -->
+  <!-- Bottom prompt -->
   <text x="315" y="158" fill="#306230" font-size="9" class="text-line-4">  PRESS START ▼</text>
-
   <!-- Blinking cursor -->
   <rect x="410" y="148" width="7" height="10" fill="#306230" class="cursor" />
 
@@ -95,29 +83,43 @@
   <circle cx="275" cy="45" r="4" fill="#9bbc0f" class="power-led" />
   <text x="283" y="48" fill="#4a4a5a" font-size="6" letter-spacing="1">POWER</text>
 
-  <!-- ====== D-PAD ====== -->
-  <!-- D-pad base shadow -->
+  <!-- ====== D-PAD ======
+       Center point: cx=316, cy=216
+       Each arm: 28px long, 16px wide
+       Horizontal: x=288..344, y=208..224   (center 316, 216)
+       Vertical:   x=308..324, y=188..244   (center 316, 216)
+  -->
+  <!-- D-pad shadow (offset 2px right, 2px down) -->
   <rect x="290" y="210" width="56" height="16" rx="3" fill="#2d2d3d" />
-  <rect x="310" y="200" width="16" height="56" rx="3" fill="#2d2d3d" />
-  <!-- D-pad horizontal -->
+  <rect x="310" y="190" width="16" height="56" rx="3" fill="#2d2d3d" />
+  <!-- D-pad horizontal arm -->
   <rect x="288" y="208" width="56" height="16" rx="3" fill="#3d3d4d" />
-  <!-- D-pad vertical -->
-  <rect x="308" y="198" width="16" height="56" rx="3" fill="#3d3d4d" />
+  <!-- D-pad vertical arm -->
+  <rect x="308" y="188" width="16" height="56" rx="3" fill="#3d3d4d" />
   <!-- D-pad center circle -->
   <circle cx="316" cy="216" r="5" fill="#2d2d3d" />
 
-  <!-- ====== A & B BUTTONS ====== -->
-  <!-- B Button -->
-  <circle cx="430" cy="218" r="14" fill="#8b1a4a" />
-  <circle cx="430" cy="216" r="14" fill="#a0325a" />
-  <text x="430" y="221" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">B</text>
+  <!-- ====== A & B BUTTONS ======
+       Real Game Boy: A is top-right, B is bottom-left, angled ~25deg
+       B center: (430, 218)
+       A center: (468, 203)
+  -->
+  <!-- B Button shadow -->
+  <circle cx="430" cy="220" r="14" fill="#8b1a4a" />
+  <!-- B Button face -->
+  <circle cx="430" cy="218" r="14" fill="#a0325a" />
+  <text x="430" y="223" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">B</text>
 
-  <!-- A Button -->
+  <!-- A Button shadow -->
   <circle cx="468" cy="205" r="14" fill="#8b1a4a" />
+  <!-- A Button face -->
   <circle cx="468" cy="203" r="14" fill="#a0325a" />
   <text x="468" y="208" text-anchor="middle" fill="#d4a0b8" font-size="11" font-weight="bold">A</text>
 
-  <!-- ====== SELECT & START ====== -->
+  <!-- ====== SELECT & START ======
+       Centered between D-pad and buttons at y~270
+       Each pill: 34x8, rotated -25deg
+  -->
   <rect x="355" y="262" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 372 266)" />
   <rect x="403" y="262" width="34" height="8" rx="4" fill="#4a4a5a" transform="rotate(-25 420 266)" />
   <text x="365" y="280" fill="#8a8a8a" font-size="6" letter-spacing="1">SELECT</text>
@@ -132,14 +134,14 @@
 
   <!-- ====== SIDE DECORATIVE TEXT ====== -->
   <!-- Left side info -->
-  <text x="80" y="90" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">╔══════════════╗</text>
-  <text x="80" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">║ @OrenERY     ║</text>
-  <text x="80" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║ WEB  DEV    ║</text>
-  <text x="80" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║ BUILDER     ║</text>
+  <text x="80" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">╔══════════════╗</text>
+  <text x="80" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">║  @OrenERY    ║</text>
+  <text x="80" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  WEB DEV     ║</text>
+  <text x="80" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">║  BUILDER     ║</text>
   <text x="80" y="170" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-4">╚══════════════╝</text>
 
   <!-- Right side info -->
-  <text x="568" y="90" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">┌──────────────┐</text>
+  <text x="568" y="90"  fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-1">┌──────────────┐</text>
   <text x="568" y="110" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-2">│  Python      │</text>
   <text x="568" y="130" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  TypeScript  │</text>
   <text x="568" y="150" fill="#9bbc0f" font-size="13" font-family="'Courier New', monospace" font-weight="bold" class="text-line-3">│  Laravel     │</text>
@@ -147,6 +149,6 @@
 
   <!-- Bottom decorative text -->
   <text x="400" y="310" text-anchor="middle" fill="#4a6a0f" font-size="9" font-family="'Courier New', monospace" opacity="0.6">
-    ← → ↑ ↓  [ github.com/OrenERY ]  A B SELECT START
+    github.com/OrenERY  ·  A B SELECT START
   </text>
 </svg>
